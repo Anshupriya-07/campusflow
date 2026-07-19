@@ -1,0 +1,6 @@
+CREATE TABLE resumes (
+  id SERIAL PRIMARY KEY,
+  user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
+  resume_url VARCHAR(255) NOT NULL,
+  uploaded_at TIMESTAMP DEFAULT NOW()
+);
