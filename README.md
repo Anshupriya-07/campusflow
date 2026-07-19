@@ -11,7 +11,7 @@ A full-stack web app that centralizes a student's academic life — tasks, place
 - Task management (CRUD)
 - Placement/internship tracker with status pipeline
 - Hackathon tracking
-- Notes with PDF upload, organized by subject
+- Notes (organized by subject)
 - Progress tracking (DSA solved, subjects completed, internship applications)
 - Auto-tracked login streak
 - Leaderboard with weighted scoring and Redis caching (60s TTL)
